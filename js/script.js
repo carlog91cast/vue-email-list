@@ -15,7 +15,7 @@ const app = new Vue(
         },
         created() {
             // creo un ciclo for per inserire le 10 mail nell'array
-            for (let i = 0; index < 10; i++) {
+            for (let i = 0; i < 10; i++) {
                 // mediante axios (ajax per vue) con un get domando le mail all'http 
                 axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
                     // creando un arrow function per pusharli nell'array creato in data
