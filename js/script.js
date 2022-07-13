@@ -14,7 +14,9 @@ const app = new Vue(
 
         },
         created() {
+            // mediante axios (ajax per vue) con un get domando le mail all'http 
             axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
+            // creando un arrow function per pusharli nell'array creato in data
                 .then((response) => {
 
                 }
